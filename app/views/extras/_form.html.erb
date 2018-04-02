@@ -1,0 +1,21 @@
+<%= form_for([@user, @user.extras.build]) do |f| %>
+ <p>
+ <%= f.label :issue %><br>
+ <%= f.text_field :issue %>
+ </p>
+ <p>
+ <%= f.label :current_date %><br>
+ <%= f.date_select :current_date %>
+ </p>
+  <p>
+ <%= f.label :resolution %><br>
+ <%= f.text_area :resolution %>
+ </p>
+  <p>
+ <%= f.label :next_appointment %><br>
+ <%= f.date_select :next_appointment %>
+ </p>
+ <p>
+ <%= f.submit %>
+ </p>
+<% end %>

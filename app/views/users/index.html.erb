@@ -1,14 +1,19 @@
 
 <h1>Listing users</h1>
 
-
+<%= form_tag users_path, :method => 'get' do %>
+<%= text_field_tag :search, params[:search] %>
+<%= submit_tag "Search" %>
+<% end %>
 <%= link_to 'New user', new_user_path %>
 <table>
  <tr>
- <th>Name</th>
- <th>Address</th>
- <th>Phone Number</th>
- <th>Date of Birth</th>
+ <th><u>Name</u></th>
+ <th><u>Address</u></th>
+ <th><u>Phone Number</u></th>
+ <th><u>Date of Birth</u></th>
+
+   
  </tr>
 
 
@@ -23,6 +28,14 @@
  <td><%= link_to 'Destroy', user_path(user),
  method: :delete,
  data: { confirm: 'Are you sure?' } %></td>
+  
  </tr>
+ <td><hr></td>
+ <td><hr></td>
+ <td><hr></td>
+ <td><hr></td>
+ <td><hr></td>
+ <td><hr></td>
+ <td><hr></td>
  <% end %>
 </table> 

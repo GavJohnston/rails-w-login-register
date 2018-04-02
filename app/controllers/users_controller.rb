@@ -3,9 +3,11 @@ class UsersController < ApplicationController
 [:index, :show]
  def index
  @users = User.all
-
  end
 
+def index
+ @users = User.where(["name Like ?","%#{params[:search]}%"])
+end
 
  def show
  @user = User.find(params[:id])

@@ -16,6 +16,6 @@ end
 
  private
  def extra_params
- params.require(:extra).permit(:issue, :current_date, :resolution, :next_appointment)
+ params.require(:extra).permit(:issue, :current_date, :resolution, :next_appointment, :image)
  end
 end

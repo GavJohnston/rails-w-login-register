@@ -1,4 +1,5 @@
 <%= form_for([@user, @user.extras.build]) do |f| %>
+
  <p>
  <%= f.label :issue %><br>
  <%= f.text_field :issue %>
@@ -14,6 +15,10 @@
   <p>
  <%= f.label :next_appointment %><br>
  <%= f.date_select :next_appointment %>
+ </p>
+   <p>
+ <%= f.label :image %><br>
+ <%= f.file_field :image %>
  </p>
  <p>
  <%= f.submit %>

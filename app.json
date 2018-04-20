@@ -1,0 +1,6 @@
+{
+  "name": "rails-w-login-register",
+  "description": "A barebones Node.js app using Express 4",
+  "repository": "https://github.com/GavJohnston/rails-w-login-register",
+  "keywords": ["login", "rails", "register"]
+}

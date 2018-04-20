@@ -1,6 +1,10 @@
 # README
 
+<<<<<<< HEAD
 
+=======
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+>>>>>>> ea4fe415b84b8294efc366cd6d580bb3f33bb84d
 
 This README would normally document whatever steps are necessary to get the
 application up and running.

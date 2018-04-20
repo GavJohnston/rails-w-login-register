@@ -1,5 +1,6 @@
 <% if doctor_signed_in? %>
  <li>
+  
  <%= link_to('Logout', destroy_doctor_session_path, :method => :delete) %>
  </li>
 <% else %>

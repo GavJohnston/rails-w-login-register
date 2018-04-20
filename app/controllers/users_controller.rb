@@ -47,6 +47,10 @@ end
  redirect_to users_path
  end
 
+def writer
+ TimeStampingWriter & WriterDecorator
+end
+
 private
  def user_params
  params.require(:user).permit(:name, :address, :phone_number, :date_of_birth )

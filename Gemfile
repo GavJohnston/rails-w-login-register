@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-#ruby version
+
 ruby  '2.4.1'
 
 

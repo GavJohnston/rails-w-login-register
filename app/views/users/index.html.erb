@@ -1,6 +1,9 @@
 
+
+
+
 <h1>Listing users</h1>
-<h2>hello <%= current_doctor.email %></h2>
+
 
 <%= form_tag users_path, :method => 'get' do %>
 <%= text_field_tag :search, params[:search] %>

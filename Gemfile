@@ -67,4 +67,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 
 
-gem "gavsgem", path: ".../gavsgem"
+gem 'gavsgem'

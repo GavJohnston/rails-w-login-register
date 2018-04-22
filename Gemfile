@@ -11,7 +11,7 @@ gem 'bundler', '~> 1.16.1'
 gem 'devise'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails',m,m
 gem 'rails', '~> 5.1.5'
-gem 'timeago'
+
 
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
@@ -48,6 +48,7 @@ group :development, :test do
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
+  gem 'listen'
   gem 'sqlite3', '~> 1.3', '>= 1.3.11'
 end
 
@@ -56,6 +57,7 @@ end
 
 group :production do
 gem 'pg'
+gem 'activerecord-postgresql-adapter'
 gem 'rails_12factor'
 end
 

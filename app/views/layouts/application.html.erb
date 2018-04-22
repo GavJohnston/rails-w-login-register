@@ -14,7 +14,9 @@
  <div class="inner">
  <a href="#nav" class="nav-collapse" id="nav-collapse">Menu</a>
  <ul class="nav" id="nav">
- <li><%= link_to "Home", root_path %></li>
+     
+ <li><button class="btn btn-info"><%= link_to "Home", root_path %></button></li>
+ 
  <%= render 'devise/menu/registration_items' %>
  <%= render 'devise/menu/login_items' %>
 

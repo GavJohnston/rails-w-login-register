@@ -1,6 +1,6 @@
 
 <h1>Listing users</h1>
-writer = Num  
+<h2>hello <%= current_doctor.email %></h2>
 
 <%= form_tag users_path, :method => 'get' do %>
 <%= text_field_tag :search, params[:search] %>
@@ -26,6 +26,7 @@ writer = Num
  <td><%= user.address %></td>
  <td><%= user.phone_number %></td>
  <td><%= user.date_of_birth %></td>
+ <td><strong><%= user.created_at %></strong></td>
  
  
  <td><%= link_to 'Show', user_path(user) %></td>

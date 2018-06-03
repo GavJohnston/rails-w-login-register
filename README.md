@@ -1,6 +1,33 @@
 # Rails Doctor App
+Basic Rails app developed in my cloud application development module, using a number of gems such as devise and imagemagick.
 
-![](rails-img/Login1.png)
+This app is used for doctors to sign up add their own patient details(name, phone number, address, Date of birth).
+
+Doctors can search through their list of patients and add extra details of their day to day visit(Issue, resolution, date visited, next appointment and image upload to keep track of bruises, swelling or irratation.)
+
+## Login
+![](/rails-img/Login1.PNG)
+
+## Index page
+![](/rails-img/index1.PNG)
+
+## Add new patient
+![](/rails-img/adduser1.PNG)
+
+![](/rails-img/adduser2.PNG)
+
+![](/rails-img/adduser1.5.PNG)
+
+## Add visit details
+
+![](/rails-img/AddExtra1.PNG)
+
+![](/rails-img/AddExtra2.PNG)
+
+## Edit doctors account(Devise gem)
+![](/rails-img/EditDoctor.PNG)
+
+
 
 <<<<<<< HEAD
 
